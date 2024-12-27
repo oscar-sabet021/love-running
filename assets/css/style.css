@@ -16,7 +16,13 @@ body {
     font-family: 'lato', sans-serif; 
 }
 header {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    /* box shadow - hor offset, ver offset, blur, color */
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 main {
     background-color: rgb(209, 206, 4);
