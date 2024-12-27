@@ -34,9 +34,7 @@ h1 {
   letter-spacing: 2px;
   color: #252525;
 }
-nav {
-
-}
+/* Menu */
 #menu {
   list-style-type: none;
   font-size: 110%;
@@ -45,6 +43,10 @@ nav {
 #menu > li {
   padding-bottom: 4px;
 }
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+/* Menu End */
 main {
     background-color: rgb(4, 209, 185);
     /* Push footer down */
