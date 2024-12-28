@@ -82,6 +82,28 @@ footer {
     background-color: rgb(244, 40, 40);
 
 }
+/* media query: tablets and up 768px */
+@media screen and (min-width: 768px) {
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu {
+    display: flex;
+
+  }
+  #menu > li {
+    padding-left: 1rem;
+  }
+  .nav-toggle-label {
+    display: none;
+  }
+}
+
+
 /* Google fonts - ubuntu fonts */
 /* .ubuntu-light {
     font-family: "Ubuntu", serif;
