@@ -76,6 +76,7 @@ main {
     background-color: rgb(4, 209, 185);
     /* Push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }   
 footer {
     background-color: rgb(244, 40, 40);
