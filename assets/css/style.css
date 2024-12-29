@@ -142,6 +142,11 @@ footer {
   main {
     margin-top: 79px;
   }
+  /*  Hero Image */
+  #cover-text {
+    width:300px;
+    right: 50px;
+  }
 }
 /* laptop sized screens */
 @media screen and (min-width: 992px) {
