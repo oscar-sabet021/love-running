@@ -37,6 +37,13 @@ h1, h2, h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+/* p {
+  padding: 0 20px;
+} */
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;;
+}
 /* Menu */
 nav {
   position: absolute;
@@ -84,6 +91,29 @@ main {
   width: 100%;
   background: url("../images/hero-image.webp") no-repeat center center/cover;
   position: relative;
+}
+/* main content */
+#reasons {
+  width: 90%;
+  margin-top: 20px;
+  /* text-align: center; */
+  padding: 10px;
+}
+#reasons div {
+  line-height: 20px;
+}
+#reasons h2 {
+  font-size: 280%;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 120%;
+}
+#benefits div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#benifits div p {
+  padding: 0 20px;
 }
 /* Footer */
 footer {
@@ -142,6 +172,7 @@ footer {
   main {
     margin-top: 79px;
   }
+
   /*  Hero Image */
   #cover-text {
     width:300px;
