@@ -73,11 +73,17 @@ nav {
 }
 /* Menu End */
 main {
-    background-color: rgb(4, 209, 185);
+    /* background-color: rgb(4, 209, 185); */
     /* Push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }   
+/* Hero */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
 /* Footer */
 footer {
 }
