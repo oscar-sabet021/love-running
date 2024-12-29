@@ -40,10 +40,10 @@ h1, h2, h3 {
 /* p {
   padding: 0 20px;
 } */
-hr {
+/* hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;;
-}
+} */
 /* Menu */
 nav {
   position: absolute;
@@ -108,13 +108,19 @@ main {
   text-align: center;
   line-height: 120%;
 }
-#benefits div {
-  padding-left: 20px;
-  padding-right: 20px;
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
-#benifits div p {
+#benefits div p {
   padding: 0 20px;
 }
+#benefits hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
+
 /* Footer */
 footer {
 }
