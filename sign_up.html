@@ -32,7 +32,35 @@
             </ul>
         </nav>
     </header>
-    <main>main</main>
+    <main>
+        <form action="https://formdump.codeinstitute.net" id="signup" method="post">
+            <h1>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h1>
+            <label for="fname">First Name:</label>
+            <input class="text-input" type="text" name="fname" id="fname" required>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input class="text-input" type="text" name="lname" id="lname" required>
+            <br>
+            <label for="email">Last Name:</label>
+            <input class="text-input" type="email" name="email" id="email" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="road ">road</label>
+                    <input type="radio" name="running-preference" id="road" value="road" checked>
+                </div>
+                <div>
+                    <label for="trail ">trail</label>
+                    <input type="radio" name="running-preference" id="trail" value="trail">
+                </div>
+                <div>
+                    <label for="road ">both</label>
+                    <input type="radio" name="running-preference" id="both" vlaue="both">
+                </div>
+            </div>
+            <input type="submit" value="Let's Run!" class="join-button" text="Let's Run!">
+        </form>
+    </main>
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
